@@ -273,6 +273,11 @@ img {
     border-bottom: 1px solid rgba(51, 50, 61, 0.15);
 }
 
+.img-text-info-index-about-me .img-text-info__info {
+    padding-top: 32px;
+    padding-bottom: 50px;
+} 
+
 .img-text-info__title {
     margin-top: 0;
     margin-bottom: 24px;
@@ -282,6 +287,10 @@ img {
     font-weight: 700;
     line-height: 42px; /* 105% */
     letter-spacing: -0.357px;
+}
+
+.img-text-info-index-about-me .img-text-info__title {
+    margin-bottom: 28px;
 }
 
 .img-text-info__description {
@@ -294,8 +303,13 @@ img {
     opacity: 0.8;
 }
 
-.button {
+
+
+/* ABOUT ME */
+.about-me {
+    margin-bottom: 115px;
 }
+
 
 
 
@@ -494,23 +508,33 @@ main {
         display: flex;
         align-items: center;
     } 
-
+    
     .info-text-info:nth-child(even) {
         flex-direction: row-reverse;
     }
-
+    
     .img-text-info__img {
         margin-bottom: 0;
     }
-
+    
     .img-text-info__info {
         width: 60%;
         margin-left: 32px;
     }
-
+    
     .info-text-info:nth-child(even) .img-text-info__info  {
         margin-left: 0;
         margin-right: 32px;
+    }
+    
+    .img-text-info-index-about-me {
+        align-items: stretch;
+    }
+    
+    .img-text-info-index-about-me .img-text-info__img {
+        height: 100%;
+        object-fit: cover;
+        object-position: right bottom ;
     }
 }
 
@@ -611,11 +635,11 @@ main {
     .hero__heading {
         margin-bottom: 48px;
     }
-    
+
     .img-text-info__picture {
         flex-shrink: 0;
     }
-
+    
     .img-text-info__img {
         flex-shrink: 0;
         width: 340px;
@@ -624,12 +648,20 @@ main {
         object-fit: cover;
     }
 
+    .img-text-info-index-about-me .img-text-info__img {
+        width: 281px;
+    }
+    
     .img-text-info__info {
         flex-shrink: 1;
         width: auto;
         margin-left: 69px;
     }
 
+    .img-text-info-index-about-me .img-text-info__info {
+        padding-top: 50px;
+    }
+    
     .img-text-info__info:nth-child(even) .img-text-info__info {
         margin-right: 69px;
         margin-left: 0;
@@ -651,41 +683,46 @@ main {
         line-height: 50px;
         letter-spacing: -0.446px;
     }
+    
+    .img-text-info-index-about-me .img-text-info__img {
+        width: 540px;
+        height: 600px;
+    }
 }
 
 @media only screen and (min-width: 1180px) {
     .site-header {
         padding-bottom: 54px;
     }
-
+    
     .img-text-info {
         align-items: stretch;
     }
-
-
+    
+    
     .img-text-info__img {
         width: 540px;
         height: 500px;
         margin-right: 0;
     }
-
+    
     .img-text-info__info {
         padding-top: 103px;
         padding-bottom: 103px;
         margin-left: 125px;
         margin-right: 96px;
     }
-
+    
     .img-text-info__info:nth-child(even) .img-text-info__info {
         margin-right: 125px;
         margin-left: 96px;
     }
-
-
+    
+    
     .img-text-info__title {
         margin-bottom: 28px;
     }
-
+    
     .img-text-info__description {
         font-size: 16px;
     }
