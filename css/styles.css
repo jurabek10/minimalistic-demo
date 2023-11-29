@@ -545,6 +545,58 @@ main {
 
 
 
+/* PROJECT-DETAILS */
+.project-details__section:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.project-details__heading {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-family: var(--font-ibarra);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -0.286px;
+}
+
+.project-details__heading--static-previews {
+    margin-bottom: 40px;
+}
+
+
+.project-details__text {
+    margin: 0;
+    line-height: 30px; /* 200% */
+}
+
+.project-details__text:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.static-previews {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.static-previews__item:not(:last-child) { 
+    margin-bottom: 32px;
+}
+
+.static-previews__picture {
+    display: block;
+}
+
+.static-previews__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
 
 /* SITE-FOOTER */
 .site-footer {
@@ -807,11 +859,11 @@ main {
     .project-hero__img {
         height: 310px;
     }
-
+    
     .project-meta-details__meta {
         margin-bottom: 40px;
     }
-
+    
     .project-meta__inner {
         display: grid;
         grid-template-columns: 340px 1fr;
@@ -821,17 +873,17 @@ main {
         padding-top: 32px;
         padding-bottom: 32px;
     }
-
+    
     .project-meta__heading {
         margin-bottom: 0;
     }
-
+    
     .project-meta__description {
         grid-row: 1 / 4;
         grid-column: 2;
         margin-bottom: 0;
     }
-
+    
     .project-meta__tags {
         margin-bottom: 0;
     }
@@ -915,19 +967,19 @@ main {
         padding-top: 150px;
         padding-bottom: 150px;
     }
-
+    
     .project-meta-details__container {
         display: flex;
         align-items: flex-start;
     }
-
+    
     .project-meta-details__meta {
         width: 100%;
         max-width: 350px;
         margin-right: 125px;
         margin-bottom: 0;
     }
-
+    
     .project-meta__inner {
         display: flex;
         flex-direction: column;
@@ -935,25 +987,29 @@ main {
         padding-top: 48px;
         padding-bottom: 48px;
     }
-
+    
     .project-meta__heading {
         margin-bottom: 28px;
     }
-
+    
     .project-meta__description {
         margin-bottom: 24px;
     }
-
+    
     .project-meta__tags {
         margin-bottom: 32px;
         font-size: 16px;
     }
-
+    
     .project-meta__tag-item:not(:last-child) {
         margin-bottom: 16px;
     }
-
+    
     .project-meta-details__details {
         flex-grow: 1;
+    }
+
+    .project-details__heading--static-previews {
+        margin-bottom: 28px;
     }
 }
