@@ -569,6 +569,7 @@ main {
 .project-details__text {
     margin: 0;
     line-height: 30px; /* 200% */
+    opacity: 0.8;
 }
 
 .project-details__text:not(:last-child) {
