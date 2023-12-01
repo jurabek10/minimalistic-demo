@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Project fylo detail</title>
     
     <!-- Styles -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -35,68 +35,87 @@
     
     <!-- MAIN-CONTENT -->
     <main class="main-content">
-        <h1 class="visuallyhidden">Portfolio</h1>
-        <div class="container">
-            <ul class="img-text-info-list">
-                <li class="img-text-info-list__item img-text-info">
-                    <picture class="img-text-info__picture">
-                        <source srcset="img/manage-preview-desktop.jpg 1x, img/manage-preview-desktop@2x.jpg 2x" media="(min-width:1180px)">
-                        <img class="img-text-info__img" src="img/manage-preview.jpg" alt="Review of project Manage" width="311" height="288" srcset="img/manage-preview.jpg 1x, img/manage-preview@2x.jpg 2x">
-                    </picture>
-                    
-                    <div class="img-text-info__info">
-                        <h3 class="img-text-info__title">
-                            Manage
-                        </h3>
-                        <p class="img-text-info__description">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
-                        <a class="button" href="portfolio-info-manage.html">View project</a>
+        
+        <!-- PROJECT-HERO -->
+        <div class="project-hero">
+            <div class="container">
+                <picture class="project-hero__picture">
+                    <source srcset="img/hero-img-fylo-desktop.jpg 1x, img/hero-img-fylo-desktop@2x.jpg 2x" media="(min-width:900px)">
+                    <source srcset="img/hero-img-fylo-tablet.jpg 1x, img/hero-img-fylo-tablet@2x.jpg 2x" media="(min-width:550px)">
+                    <img class="project-hero__img" src="img/hero-img-fylo.jpg" alt="" width="311" height="140" srcset="img/hero-img-fylo.jpg 1x, img/hero-img-fylo@2x.jpg 2x" aria-hidden="true">
+                </picture>
+            </div>
+        </div>
+        
+        
+        <div class="project-meta-details">
+            <!-- PROJECT-META -->
+            <div class="project-meta-details__container container">
+                <div class="project-meta-details__meta project-meta">
+                    <div class="project-meta__container">
+                        <div class="project-meta__inner">
+                            <h1 class="project-meta__heading">Fylo</h1>
+                            <p class="project-meta__description">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.</p>
+                            <div class="project-meta__tags">
+                                <div class="project-meta__tag-item">Interaction Design / Front End Development</div>
+                                <div class="project-meta__tag-item">HTML / CSS / JS</div>
+                            </div>
+                            <a class="project-meta__button button" href="#">Visit website</a>
+                        </div>
                     </div>
-                </li>
-                <li class="img-text-info-list__item img-text-info">
-                    <picture class="img-text-info__picture">
-                        <source srcset="img/bookmark-preview-desktop.jpg 1x, img/bookmark-preview-desktop@2x.jpg 2x" media="(min-width:1180px)">
-                        <img class="img-text-info__img" src="img/bookmark-preview.jpg" alt="Review of project Bookmark" width="311" height="288" srcset="img/manage-preview.jpg 1x, img/bookmark-preview@2x.jpg 2x">
-                    </picture>
-                    
-                    <div class="img-text-info__info">
-                        <h3 class="img-text-info__title">
-                            Bookmark
-                        </h3>
-                        <p class="img-text-info__description">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.</p>
-                        <a class="button" href="portfolio-info-bookmark.html">View project</a>
-                    </div>
-                </li>
-                <li class="img-text-info-list__item img-text-info">
-                    <picture class="img-text-info__picture">
-                        <source srcset="img/insure-preview-desktop.jpg 1x, img/insure-preview-desktop@2x.jpg 2x" media="(min-width:1180px)">
-                        <img class="img-text-info__img" src="img/insure-preview.jpg" alt="Review of project Insure" width="311" height="288" srcset="img/insure-preview.jpg 1x, img/insure-preview@2x.jpg 2x">
-                    </picture>
-                    
-                    <div class="img-text-info__info">
-                        <h3 class="img-text-info__title">
-                            Insure
-                        </h3>
-                        <p class="img-text-info__description">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.</p>
-                        <a class="button" href="portfolio-info-insure.html">View project</a>
-                    </div>
-                </li>
-                <li class="img-text-info-list__item img-text-info">
-                    <picture class="img-text-info__picture">
-                        <source srcset="img/fylo-preview-desktop.jpg 1x, img/fylo-preview-desktop@2x.jpg 2x" media="(min-width:1180px)">
-                        <img class="img-text-info__img" src="img/fylo-preview.jpg" alt="Review of project Fylo" width="311" height="288" srcset="img/fylo-preview.jpg 1x, img/fylo-preview@2x.jpg 2x">
-                    </picture>
-                    
-                    <div class="img-text-info__info">
-                        <h3 class="img-text-info__title">
-                            Fylo
-                        </h3>
-                        <p class="img-text-info__description">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.</p>
-                        <a class="button" href="portfolio-info-fylo.html">View project</a>
-                    </div>
-                </li>
-            </ul>
+                </div>
+                <!-- PROJECT-DETAILS -->
+                <div class="project-meta-details__details project-details">
+                    <section class="project-details__section">
+                        <h2 class="project-details__heading">Project Background</h2>
+                        <div class="project-details__text-wrapper">
+                            <p class="project-details__text">This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.</p>
+                        </div>
+                    </section>
+                    <section class="project-details__section">
+                        <h2 class="project-details__heading project-details__heading--static-previews">Static Previews</h2>
+                        <ul class="project-details__static-previews static-previews" role="list">
+                            <li class="static-previews__item" role="lisitem">
+                                <picture class="static-previews__picture">
+                                    <source srcset="img/static-preview-1-fylo-tablet.jpg 1x, img/static-preview-1-fylo-tablet@2x.jpg 2x" media="(min-width:600px)">
+                                    <img class="static-previews__img" src="img/static-preview-1-fylo.jpg" alt="Preview image of Managa" width="313" height="197" srcset="img/static-preview-1-fylo.jpg 1x, img/static-preview-1-fylo@2x.jpg 2x">
+                                </picture>
+                            </li>
+                            <li class="static-previews__item" role="lisitem">
+                                <picture class="static-previews__picture">
+                                    <source srcset="img/static-preview-2-fylo-tablet.jpg 1x, img/static-preview-2-fylo-tablet@2x.jpg 2x" media="(min-width:600px)">
+                                    <img class="static-previews__img" src="img/static-preview-2-fylo.jpg" alt="Preview image of Managa" width="313" height="197" srcset="img/static-preview-2-fylo.jpg 1x, img/static-preview-2-fylo@2x.jpg 2x">
+                                </picture>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
         </div>
 
+
+        <!-- PAGE CONTROLS -->
+        <section class="page-controls">
+            <div class="container">
+                <div class="page-controls__inner">
+                    <a class="page-controls__link page-controls__link--prev" href="portfolio-info-insure.html">
+                        <svg class="page-controls__icon" width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Path 2" d="M9 1L1 9L9 17" stroke="currentColor"/>
+                        </svg>
+                        <span class="page-controls__text">Previous project</span>
+                        <span class="page-controls__title">Insure</span>
+                    </a>
+                    <a class="page-controls__link page-controls__link--next" href="portfolio-info-manage.html">
+                        <svg class="page-controls__icon" width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Path 2" d="M1 1L9 9L1 17" stroke="currentColor"/>
+                        </svg>
+                        <span class="page-controls__text">Next project</span>
+                        <span class="page-controls__title">Manage</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
         <!-- CONTACT-CTA -->
         <section class="contact-cta contact-cta--portfolio-index">
             <div class="contact-cta__container container">

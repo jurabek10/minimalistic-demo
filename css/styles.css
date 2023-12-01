@@ -456,7 +456,7 @@ main {
 
 /* CONTACT-CTA */
 .contact-cta {
-    padding-top: 115px;
+    padding-top: 64px;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -653,6 +653,7 @@ main {
     margin-bottom: 0;
     font-style: normal;
     opacity: 0.5;
+    text-transform: capitalize;
 }
 
 .page-controls__title {
@@ -902,7 +903,7 @@ main {
     }
     
     .contact-cta {
-        padding-top: 96px;
+        padding-top: 80px;
         padding-bottom: 96px;
     }
     
@@ -1072,7 +1073,7 @@ main {
     }
     
     .contact-cta {
-        padding-top: 150px;
+        padding-top: 115px;
         padding-bottom: 150px;
     }
     
