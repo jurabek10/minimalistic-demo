@@ -741,6 +741,28 @@ main {
     min-height: 96px;
 }
 
+.form__field:not(:focus):not(:placeholder-shown):invalid {
+    border-color: var(--bright-red);
+}
+
+.form__field:not(:focus):not(:placeholder-shown):valid {
+    border-color: var(--green);
+}
+
+.form__error--message {
+    display: none;
+    margin-bottom: 4px;
+    color: var(--bright-red);
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form__field:not(:focus):not(:placeholder-shown):invalid ~ .form__error--message {
+    display: block;
+}
+
 
 /* SOLID */
 .solid-button {
@@ -760,8 +782,7 @@ main {
 }
 
 .solid-button:hover {
-    color: var(--dark-blue);
-    background-color: #fff;
+    opacity: 0.8;
 }
 
 .solid-button:active {
@@ -928,7 +949,7 @@ main {
         padding-left: 40px;
         padding-right: 40px;
     }
-
+    
     .main-content--contact-page {
         padding-top: 36px;
         padding-bottom: 64px;
@@ -1122,7 +1143,7 @@ main {
         grid-column: 2;
         grid-row: 1 / 3;
     }
-
+    
     .two-column-section:first-child {
         padding-top: 32px;
     }
@@ -1166,18 +1187,18 @@ main {
     .project-hero__img {
         height: 500px;
     }
-
+    
     .two-column-section {
         display: grid;
         grid-template-columns: 350px 1fr;
         gap: 64px;
     }
-
+    
     .two-column-section:first-child {
         padding-top: 48px;
         padding-bottom: 48px;
     }
-
+    
     .two-column-section__heading {
         margin-bottom: 0;
     }
@@ -1275,7 +1296,7 @@ main {
     .project-details__heading--static-previews {
         margin-bottom: 28px;
     }
-
+    
     .two-column-section {
         gap: 125px;
     }
